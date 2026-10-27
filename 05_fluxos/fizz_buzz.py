@@ -1,0 +1,11 @@
+# O range começa no 1 e vai até o 1000 (ele sempre para um número antes do limite final)
+for numero in range(1, 1001):
+    
+    if numero % 15 == 0:
+        print("FizzBuzz")
+    elif numero % 3 == 0:
+        print("Fizz")
+    elif numero % 5 == 0:
+        print("Buzz")
+    else:
+        print(numero)
